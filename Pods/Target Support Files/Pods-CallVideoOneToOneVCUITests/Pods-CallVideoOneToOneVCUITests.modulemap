@@ -1,0 +1,6 @@
+framework module Pods_CallVideoOneToOneVCUITests {
+  umbrella header "Pods-CallVideoOneToOneVCUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
