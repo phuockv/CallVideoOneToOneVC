@@ -37,14 +37,14 @@ static StringeeImplement *sharedMyManager = nil;
 
 // Kết nối tới stringee server
 -(void) connectToStringeeServer {
-    [self.stringeeClient connectWithAccessToken:@"YOUR_ACCESS_TOKEN"];
+    [self.stringeeClient connectWithAccessToken:@"eyJjdHkiOiJzdHJpbmdlZS1hcGk7dj0xIiwidHlwIjoiSldUIiwiYWxnIjoiSFMyNTYifQ.eyJqdGkiOiJTS3g1czBjN0VsaHJwMTVzR2pVdmo2RkVKcnVnUTBoTlktMTU3MTEyODk5MSIsImlzcyI6IlNLeDVzMGM3RWxocnAxNXNHalV2ajZGRUpydWdRMGhOWSIsImV4cCI6MTU3MzcyMDk5MSwidXNlcklkIjoiSGFMUSJ9.DBjFZIL0Pje4U-UNNdJtPkZeXdvwm-BCwIwfhLXD1Gs"];
 }
 
 // MARK:- Stringee Connection Delegate
 
 // Lấy access token mới và kết nối lại đến server khi mà token cũ không có hiệu lực
 - (void)requestAccessToken:(StringeeClient *)StringeeClient {
-    [self.stringeeClient connectWithAccessToken:@"YOUR_ACCESS_TOKEN"];
+    [self.stringeeClient connectWithAccessToken:@"eyJjdHkiOiJzdHJpbmdlZS1hcGk7dj0xIiwidHlwIjoiSldUIiwiYWxnIjoiSFMyNTYifQ.eyJqdGkiOiJTS3g1czBjN0VsaHJwMTVzR2pVdmo2RkVKcnVnUTBoTlktMTU3MTEyODk5MSIsImlzcyI6IlNLeDVzMGM3RWxocnAxNXNHalV2ajZGRUpydWdRMGhOWSIsImV4cCI6MTU3MzcyMDk5MSwidXNlcklkIjoiSGFMUSJ9.DBjFZIL0Pje4U-UNNdJtPkZeXdvwm-BCwIwfhLXD1Gs"];
 }
 
 - (void)didConnect:(StringeeClient *)stringeeClient isReconnecting:(BOOL)isReconnecting {
