@@ -32,7 +32,7 @@
 		BAE393E92355E1350010764E /* CallingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAE393E32355E1340010764E /* CallingViewController.m */; };
 		BAE393EA2355E1350010764E /* CallPadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAE393E52355E1340010764E /* CallPadViewController.m */; };
 		BAE393EB2355E1350010764E /* CallPadViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAE393E72355E1340010764E /* CallPadViewController.xib */; };
-		BAE394222355E8430010764E /* CallVideoOneToOne.podspec in Resources */ = {isa = PBXBuildFile; fileRef = BAE394212355E8430010764E /* CallVideoOneToOne.podspec */; };
+		BAE394222355E8430010764E /* CallVideoOneToOneVC.podspec in Resources */ = {isa = PBXBuildFile; fileRef = BAE394212355E8430010764E /* CallVideoOneToOneVC.podspec */; };
 		EAC3F6456CD57CC03C740AD2 /* Pods_CallVideoOneToOneVCUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1083AD1006EB3AFCDA5CE1F1 /* Pods_CallVideoOneToOneVCUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -96,7 +96,7 @@
 		BAE393E52355E1340010764E /* CallPadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CallPadViewController.m; sourceTree = "<group>"; };
 		BAE393E62355E1340010764E /* CallPadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CallPadViewController.h; sourceTree = "<group>"; };
 		BAE393E72355E1340010764E /* CallPadViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CallPadViewController.xib; sourceTree = "<group>"; };
-		BAE394212355E8430010764E /* CallVideoOneToOne.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CallVideoOneToOne.podspec; sourceTree = "<group>"; };
+		BAE394212355E8430010764E /* CallVideoOneToOneVC.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CallVideoOneToOneVC.podspec; sourceTree = "<group>"; };
 		CFC28319D4329B26E4EF767F /* Pods-CallVideoOneToOneVC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CallVideoOneToOneVC.release.xcconfig"; path = "Target Support Files/Pods-CallVideoOneToOneVC/Pods-CallVideoOneToOneVC.release.xcconfig"; sourceTree = "<group>"; };
 		E8A2E3DD4A37AAADC8A8FE00 /* Pods-CallVideoOneToOneVC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CallVideoOneToOneVC.debug.xcconfig"; path = "Target Support Files/Pods-CallVideoOneToOneVC/Pods-CallVideoOneToOneVC.debug.xcconfig"; sourceTree = "<group>"; };
 		FBA05DD4988485A5BEA09045 /* Pods-CallVideoOneToOneVCUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CallVideoOneToOneVCUITests.release.xcconfig"; path = "Target Support Files/Pods-CallVideoOneToOneVCUITests/Pods-CallVideoOneToOneVCUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -178,7 +178,7 @@
 		BACDB0032355DE6D004746C2 /* CallVideoOneToOneVC */ = {
 			isa = PBXGroup;
 			children = (
-				BAE394212355E8430010764E /* CallVideoOneToOne.podspec */,
+				BAE394212355E8430010764E /* CallVideoOneToOneVC.podspec */,
 				BAE393E02355E1340010764E /* CallingVC */,
 				BAE393E42355E1340010764E /* CallPadVC */,
 				BAE393CA2355E10E0010764E /* InstanceManager.h */,
@@ -376,7 +376,7 @@
 				BAE393DB2355E10F0010764E /* keypad_sound.mp3 in Resources */,
 				BAE393EB2355E1350010764E /* CallPadViewController.xib in Resources */,
 				BAE393DA2355E10F0010764E /* busy_signal.mp3 in Resources */,
-				BAE394222355E8430010764E /* CallVideoOneToOne.podspec in Resources */,
+				BAE394222355E8430010764E /* CallVideoOneToOneVC.podspec in Resources */,
 				BAE393DD2355E10F0010764E /* end_call_tututu.caf in Resources */,
 				BAE393E82355E1350010764E /* CallingViewController.xib in Resources */,
 				BAE393DF2355E10F0010764E /* callring.wav in Resources */,
