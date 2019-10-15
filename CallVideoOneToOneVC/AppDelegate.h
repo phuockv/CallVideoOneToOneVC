@@ -1,9 +1,9 @@
 //
 //  AppDelegate.h
-//  CallVideoOneToOneVC
+//  SampleVoiceCall
 //
-//  Created by Vuong Toan Chung on 10/15/19.
-//  Copyright © 2019 Vuong Toan Chung. All rights reserved.
+//  Created by Hoang Duoc on 10/25/17.
+//  Copyright © 2017 Hoang Duoc. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
